@@ -171,6 +171,7 @@ def key_press(event):
         do_backspace()
     elif key.lower() == "c":
         do_clear()
+        
 
 
 root.bind("<Key>", key_press)
